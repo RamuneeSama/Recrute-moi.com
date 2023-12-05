@@ -78,6 +78,9 @@ div > img {
 
 }
 
+
+/* Délimitation du header avec le reste du CSS */
+
 .mid{                   /* Bordure */
 
     border: 3px solid #0A2239;
