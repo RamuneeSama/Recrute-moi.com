@@ -3,8 +3,13 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
+    height: 100vh;
     box-sizing: border-box;
-    overflow-x: hidden;    
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -12,27 +17,26 @@ header {
 
     background: linear-gradient(180deg, #0A2239 70.75%, rgba(10, 34, 57, 0.86) 88.36%);
     box-shadow: 0px 30px 15px 0px rgba(10, 34, 57, 0.30);
-    padding: 50px;
+    padding: 25px;
+    padding-bottom: 35px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    position: sticky;
+    position: absolute;
     top: 0px;
     justify-content: center;
 
 }
 
-div {
+.icon {
 
     width: 20px;
     height: 20px;
-    flex-direction: column;
-    
-}
-
-div > img {
-
-    padding: 5px;
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-right: 50px;
     
 }
 
@@ -40,7 +44,9 @@ div > img {
 
     display: flex;
     flex: 1;
-    margin-top: -35px;
+    margin-left: 55px;
+    padding-top: 5px;
+    margin-top: -10px;
 
 }
 
@@ -49,22 +55,7 @@ div > img {
     width: 151px;
     height: 75px;
     margin-bottom: -100px;
-    display: block;
-    flex: 0 0 auto;
-    padding-bottom: 100px;
-    
-
-}
-
-.icon{
-
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
-    margin-top: -15px;
-    margin-left: -100px;
-    padding: -5px;
-
+    padding-bottom: 75px;
 }
 
 .icon img {
@@ -74,78 +65,34 @@ div > img {
     margin-right: 15px;
     display: block;
     flex: 0 0 auto;
-    padding: 6px;  
+    padding: 6px;
 
 }
 
 
-.mid h1{            /* Titre du site */
+h1{            /* Titre du site */
 
     margin-bottom: 20px;
 
 }
 
-.mid form{
 
-    text-align: left;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-input[type="password"] {    /* Text Area pour email et mots de passe */
-    
-    width: 425px;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    text-align: center;
-    margin: auto;
-    margin-left: 8%;
-
-}
-
-.forget{                         /* Mots de passe oublié ? */
-
-    display: block;
-    margin-top: 1em;
-    text-align: right;
-    text-decoration: none;
-    color: #0A2239;
-
-}
-
-
-#adresse {
-    width: 425px;
-    box-sizing: border-box;
-    margin: auto;
-    margin-left: 8%;
-    margin-top: 10%;
-    padding-bottom: 10px;
-    
-}
-
-.mid{                   /* Bordure */
+section {                   /* Bordure */
 
     border: 3px solid #0A2239;
     width: 500px;
     height: 400px;
-    flex-shrink: 0;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    display: inline-block;
+    margin: 0;
+    display: flex;
     flex-direction: column;
-    position: absolute;
-    left: 35%;
-    bottom: 25%;
     border-radius: 10px;
+    justify-content: center;
+    align-items: center;
     
 
 }
 
-div > .second {
+section > .second {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -157,12 +104,31 @@ div > .second {
     width: 150px;
     height: 20px;
     background-color: #0A2239;
-    margin-left: 34%;
-   
+
 }
 
-div > p {
+section > p {
     text-align: start;
     margin-left: 40px;
     margin-right: 40px;
 }
+
+.password-container {
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+
+#password, #password1 {
+    padding: 10px;
+    width: 425px;
+}
+
+span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
