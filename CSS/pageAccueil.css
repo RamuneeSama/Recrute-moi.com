@@ -19,16 +19,7 @@ header {
   position: sticky;
   top: 0px;
   justify-content: center;
-}
-
-div {
-  width: 20px;
-  height: 20px;
-  flex-direction: column;
-}
-
-div > img {
-  padding: 5px;
+  
 }
 
 .logo {
@@ -70,48 +61,81 @@ label {
   margin: 0.4rem 0;
 }
 
+#button {
+  margin-top: 3%;
+  margin-left: 5%;
+}
 #search {
-  padding: 10%;
+  margin-top: 5%;
+}
+#box1 {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 #conteneur1 {
   display: flex;
   flex-direction: row;
   padding-top: 15px;
-
 }
-#box1 {
-  margin-top: 50px;
-  border: solid black;
+
+aside {
   display: flex;
   flex-direction: row;
+  padding-left: 250px;
+}
+
+.news1 {
+  height: 200px;
+  width: 200px;
+}
+.news2 {
+  height: 200px;
+  width: 200px;
 }
 #box2 {
-  border: solid black;
   display: block;
-}
-img.nurserie {
-  width: 5%;
+  margin-top: 100px;
 }
 .cellule1 {
-  border: solid black;
-  width: 99%;
-  margin: 5px;
-  justify-content: center;
-  padding: 40px;
+  border: solid #0a2239 4px;
+  background-color: #7D7c84;
+  color: #F0f6f6;
+  width: 98%;
+  margin: 9px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }
 .cellule2 {
-  border: solid black;
-  width: 99%;
-  margin: 5px;
-  padding: 40px;
+  border: solid #0a2239 4px;
+  background-color: #7D7c84;
+  color: #F0f6f6;
+  width: 98%;
+  margin: 9px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }
 .cellule3 {
-  border: solid black;
-  width: 99%;
-  margin: 5px;
-  padding: 40px;
+  border: solid #0a2239 4px;
+  background-color: #7D7c84;
+  color: #F0f6f6;
+  width: 98%;
+  margin: 9px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 #box3 {
+  border: solid black;
   display: flex;
   flex-direction: row;
 }
@@ -119,11 +143,35 @@ img.nurserie {
   border: solid black;
   width: 99%;
   margin: 5px;
-}.cellule5 {
+}
+.cellule5 {
   border: solid black;
   width: 99%;
   margin: 5px;
-}.cellule6 {
+}
+.cellule6 {
+  border: solid black;
+  width: 99%;
+  margin: 5px;
+}
+.cellule7 {
+  border: solid black;
+  width: 99%;
+  margin: 5px;
+}
+.cellule8 {
+  border: solid black;
+  width: 99%;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.cellule9 {
+  border: solid black;
+  width: 99%;
+  margin: 5px;
+}
+.cellule10 {
   border: solid black;
   width: 99%;
   margin: 5px;
