@@ -19,7 +19,6 @@ header {
   position: sticky;
   top: 0px;
   justify-content: center;
-  
 }
 
 .logo {
@@ -73,7 +72,7 @@ label {
 
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 #conteneur1 {
   display: flex;
@@ -85,6 +84,7 @@ aside {
   display: flex;
   flex-direction: row;
   padding-left: 250px;
+  padding-right: 50px;
 }
 
 .news1 {
@@ -101,78 +101,101 @@ aside {
 }
 .cellule1 {
   border: solid #0a2239 4px;
-  background-color: #7D7c84;
-  color: #F0f6f6;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
   width: 98%;
   margin: 9px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
+  justify-content: space-between;
 }
 .cellule2 {
   border: solid #0a2239 4px;
-  background-color: #7D7c84;
-  color: #F0f6f6;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  border-radius: 15px;
+  color: #f0f6f6;
   width: 98%;
   margin: 9px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-
+  justify-content: space-between;
 }
 .cellule3 {
   border: solid #0a2239 4px;
-  background-color: #7D7c84;
-  color: #F0f6f6;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  border-radius: 15px;
+  color: #f0f6f6;
   width: 98%;
   margin: 9px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.maps {
+  border-radius: 10px;
+  margin: 5px;
+  margin-right: 50px;
 }
 #box3 {
-  border: solid black;
   display: flex;
   flex-direction: row;
 }
 .cellule4 {
-  border: solid black;
+  border: solid #0a2239 4px;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
+  border-radius: 5px;
   width: 99%;
   margin: 5px;
 }
 .cellule5 {
-  border: solid black;
+  border: solid #0a2239 4px;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
+  border-radius: 5px;
   width: 99%;
   margin: 5px;
 }
 .cellule6 {
-  border: solid black;
+  border: solid #0a2239 4px;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
+  border-radius: 5px;
   width: 99%;
   margin: 5px;
 }
 .cellule7 {
-  border: solid black;
+  border: solid #0a2239 4px;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
+  border-radius: 5px;
   width: 99%;
   margin: 5px;
 }
 .cellule8 {
-  border: solid black;
   width: 99%;
   margin: 5px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .cellule9 {
-  border: solid black;
+  border: solid #0a2239 4px;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
+  border-radius: 5px;
   width: 99%;
   margin: 5px;
 }
 .cellule10 {
-  border: solid black;
+  border: solid #0a2239 4px;
+  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
+  border-radius: 5px;
   width: 99%;
   margin: 5px;
 }
