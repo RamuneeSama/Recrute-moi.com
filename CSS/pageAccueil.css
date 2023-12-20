@@ -59,7 +59,20 @@ input,
 label {
   margin: 0.4rem 0;
 }
-
+button {
+  background-color: #0a2239;
+  color: #f0f6f6;
+  border-radius: 5px;
+  padding: 10px;
+}
+button:hover {
+  background-color: #1a4872;
+  transition: 0.7s;
+}
+button:active {
+  background-color: #7D7C84;
+  transition: 0ms;
+}
 #button {
   margin-top: 3%;
   margin-left: 5%;
@@ -69,7 +82,8 @@ label {
 }
 #box1 {
   margin-top: 50px;
-
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -95,14 +109,25 @@ aside {
   height: 200px;
   width: 200px;
 }
+.news3 {
+  border: solid #0a2239 4px;
+  border-radius: 15px;
+  background: linear-gradient(180deg, #0a2239 70%, rgba(10, 34, 57, 0) 100%);
+  color: #f0f6f6;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
 #box2 {
   display: block;
   margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .cellule1 {
   border: solid #0a2239 4px;
   border-radius: 15px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   width: 98%;
   margin: 9px;
@@ -113,7 +138,7 @@ aside {
 }
 .cellule2 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
   border-radius: 15px;
   color: #f0f6f6;
   width: 98%;
@@ -125,7 +150,7 @@ aside {
 }
 .cellule3 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
   border-radius: 15px;
   color: #f0f6f6;
   width: 98%;
@@ -143,10 +168,16 @@ aside {
 #box3 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.botom {
+  display: flex;
 }
 .cellule4 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -154,7 +185,7 @@ aside {
 }
 .cellule5 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -162,7 +193,7 @@ aside {
 }
 .cellule6 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -170,7 +201,7 @@ aside {
 }
 .cellule7 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -185,7 +216,7 @@ aside {
 }
 .cellule9 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 30%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -193,9 +224,24 @@ aside {
 }
 .cellule10 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 20%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(180deg, #0a2239 30%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
   margin: 5px;
+}
+@media screen and (max-width: 1400px) {
+  #box1 {
+    display: block;
+  }
+  #button {
+    margin-top: 0;
+    margin-left: 30%;
+  }
+  aside {
+    padding-left: 0;
+  }
+  #box3 {
+    display: block;
+  }
 }
