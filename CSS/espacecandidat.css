@@ -80,7 +80,7 @@ div > img {
 
 /* Délimitation du header avec le reste du CSS */
 
-.different{                   /* Bordure */
+.bandeau{                   /* Bordure du bandeau centrale */
 
     border: 3px;
     width: 1202px;
@@ -100,12 +100,179 @@ div > img {
     border-radius: 10px;
     border-radius: 24px;
     background: linear-gradient(180deg, #0A2239 20%, rgba(10, 34, 57, 0.00) 100%);
+    z-index: 1;
     
 }
 
 #utilisateur{
 
     display: flex;
+    margin-left: 350px;
+    margin-top: 165px;
+    z-index: 3;
+    position: relative;
+
+}
+
+.button{
+
+    display: flex;
+    z-index: 5;
+    position: relative;
+    margin-left: 475px;
     
+}
+
+.button input[type=button]{
+
+    width: 170px;
+    padding: 10px;
+    background-color: #7D7C84;
+    border: none;
+    color: #F0F6F6;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+
+}
+
+input[type=button]:hover{
+
+    background-color: #F0F6F6;
+    color: #0A2239;
+}
+
+.button > div {
+
+    display: flex;
+    margin-right: 240px;
+    margin-top: 50px;
+
+}
+
+.previewCandi{
+
+    display: flex;
+    border-radius: 40px 40px;
+    margin-top: 219px;
+    margin-left: 280px;
+    width: 727px;
+    height: 219px;
+    background: linear-gradient(180deg, #0A2239 0%, rgba(10, 34, 57, 0.62) 99.99%, rgba(10, 34, 57, 0.00) 100%);
+    flex-direction: column;
+    position: absolute;
     
+}
+
+#FirstCandi{
+
+    display: flex;
+    border: 2px solid #7D7C84;
+    border-radius: 20px 20px;
+    background: #7D7C84;
+    color: #F0F6F6;
+    width: 332px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#SeconCandi{
+
+    display: flex;
+    border: 2px solid #7D7C84;
+    border-radius: 20px 20px;
+    background: #7D7C84;
+    color: #F0F6F6;
+    width: 332px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#TitreCandi{
+
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 290px;
+    margin-top: 190px;
+}
+
+.Notif{
+
+    display: flex;
+    border-radius: 40px 40px;
+    margin-top: 270px;
+    margin-left: 1280px;
+    width: 353px;
+    height: 301px;
+    border-radius: 41px;
+    background: linear-gradient(180deg, #1E3449 0%, #7D7C84 100%);
+    flex-direction: row;
+    position: absolute;
+    
+}
+
+#clochenotif{
+
+    display: flex;
+    position: absolute;
+    margin-left: 23px;
+    margin-top: 18px;
+    width: 25px;
+    height: 25px;
+}
+
+#titrenotif{
+
+    display: flex;
+    position: absolute;
+    margin-left: 60px;
+    color: #F0F6F6;
+}
+
+#accesnotif{
+
+    display: flex;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 22px;
+    color: #F0F6F6;
+    
+}
+
+#FirstPreview{
+
+    display: flex;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 10px;
+    border: 1px #1E3449;
+    width: 300px;
+    height: 40px;
+
+}
+
+#OffreGestion{
+
+    color: #F0F6F6;
+
+}
+
+#SecondPreview{
+
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 10px;
+    border: 1px #1E3449;
+    width: 300px;
+    height: 40px;
+}
+
+#OffreSerrurier{
+
+    color: #F0F6F6;
+
 }
