@@ -70,7 +70,7 @@ button:hover {
   transition: 0.7s;
 }
 button:active {
-  background-color: #7D7C84;
+  background-color: #7d7c84;
   transition: 0ms;
 }
 #button {
@@ -127,7 +127,7 @@ aside {
 .cellule1 {
   border: solid #0a2239 4px;
   border-radius: 15px;
-  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(100deg, #0a2239 45%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   width: 98%;
   margin: 9px;
@@ -135,10 +135,11 @@ aside {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .cellule2 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(100deg, #0a2239 45%, rgba(10, 34, 57, 0) 100%);
   border-radius: 15px;
   color: #f0f6f6;
   width: 98%;
@@ -147,10 +148,11 @@ aside {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .cellule3 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(100deg, #0a2239 45%, rgba(10, 34, 57, 0) 100%);
   border-radius: 15px;
   color: #f0f6f6;
   width: 98%;
@@ -159,11 +161,14 @@ aside {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .maps {
   border-radius: 10px;
   margin: 5px;
   margin-right: 50px;
+  height: 200px;
+  width: 200px;
 }
 #box3 {
   display: flex;
@@ -177,7 +182,7 @@ aside {
 }
 .cellule4 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(100deg, #0a2239 70%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -185,7 +190,7 @@ aside {
 }
 .cellule5 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(100deg, #0a2239 70%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -193,7 +198,7 @@ aside {
 }
 .cellule6 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(100deg, #0a2239 70%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -201,7 +206,7 @@ aside {
 }
 .cellule7 {
   border: solid #0a2239 4px;
-  background: linear-gradient(180deg, #0a2239 50%, rgba(10, 34, 57, 0) 100%);
+  background: linear-gradient(100deg, #0a2239 70%, rgba(10, 34, 57, 0) 100%);
   color: #f0f6f6;
   border-radius: 5px;
   width: 99%;
@@ -244,4 +249,13 @@ aside {
   #box3 {
     display: block;
   }
+}
+footer {
+  background-color: #0a2239;
+  color: #f0f6f6;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+.para1 {
+  padding-right: 10px;
 }
