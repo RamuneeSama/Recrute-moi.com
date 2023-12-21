@@ -30,24 +30,28 @@
 
                 <form action="connexion" method="get">
 
-                    <div class="mail-container"></div>
-                    <input type="email" name="mail" id="mail" placeholder="Veuillez saisir votre e-mail"> 
-
-                    <div class="mail-container"></div>
-                    <input type="password" name="mdp" id="password" placeholder="Veuillez entrer votre mots de passe">
+                    <div class="mail-container">
+                        <input type="email" name="mail" id="mail" placeholder="Veuillez saisir votre e-mail"> 
+                    </div><br>
+                    <div class="mail-container">
+                        <input type="password" name="mdp" id="password" placeholder="Veuillez entrer votre mots de passe">
+                        <span class="fa fa-eye" id="show" ></span>
+                        <span class="fa fa-eye-slash" id="cache"></span>
+                    </div>
                    
-                    <a href="" target="_blank" class="forget">Mots de passe oublié ?</a>
+                    <a href="" target="_blank" class="forget">Mots de passe oublié ?</a><br>
 
                 </form>
                     
                 <div>
-                    <input type="reset" name="cancel" value="Annuler">
-                    <input type="submit" name="connexion" value="Se connecter" onclick="window.location.href = '../Accueil/Accueil.html';"> <!--lien vers page d'accueil-->
+                    <input type="reset" name="cancel" value="Annuler" id="boutton">
+                    <input type="submit" name="connexion" value="Se connecter" id="boutton1" onclick="window.location.href = '../Accueil/Accueil.html';"> <!--lien vers page d'accueil-->
                 </div>             
          <a href="../Créer_un_compte/Créer_un_compte.html" class="first">Première connexion ? Cliquez ici ! </a>
 
     </section>
-
+    <script src="https://kit.fontawesome.com/934fe3444a.js" crossorigin="anonymous"></script>
+    <script src="connexion.js"></script>
 </body>
 
 </html>

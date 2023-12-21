@@ -69,6 +69,10 @@ header {
 
 }
 
+h1 {
+    margin-bottom: 10%;
+}
+
 .forget{                         
 
     display: block;
@@ -143,6 +147,11 @@ section {
 
 }
 
+#boutton, #boutton1 {
+    width: 150px;
+   
+}
+
 .mail-container, .password-container {
     position: relative;
     margin-bottom: 10px;
@@ -154,3 +163,26 @@ section {
     width: 425px;
 }
 
+span {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+#show {
+    visibility: visible;
+}
+
+#cache {
+    visibility: hidden;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
