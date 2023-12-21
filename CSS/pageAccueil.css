@@ -104,10 +104,14 @@ aside {
 .news1 {
   height: 200px;
   width: 200px;
+  padding-right: 10px;
+  border-radius: 15px;
 }
 .news2 {
   height: 200px;
   width: 200px;
+  padding-left: 10px;
+  border-radius: 15px;
 }
 .news3 {
   border: solid #0a2239 4px;
