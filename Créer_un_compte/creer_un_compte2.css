@@ -132,3 +132,27 @@ span {
     cursor: pointer;
 }
 
+#show {
+    visibility: visible;
+}
+
+#cache {
+    visibility: hidden;
+}
+
+#show1 {
+    visibility: visible;
+}
+
+#cache1 {
+    visibility: hidden;
+
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
