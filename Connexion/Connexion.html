@@ -26,29 +26,26 @@
     </header>
     <section>
 
-        <div class="mid">
-
             <h1>Recrute-moi.com</h1>
 
                 <form action="connexion" method="get">
 
-                    <label for="mail"></label><br>
-                    <input type="email" name="mail" placeholder="Veuillez saisir votre e-mail"><br>
+                    <div class="mail-container"></div>
+                    <input type="email" name="mail" id="mail" placeholder="Veuillez saisir votre e-mail"> 
 
-                    <label for="mdp"></label><br>
-                    <input type="password" name="mdp" placeholder="Veuillez entrer votre mots de passe"><br>
+                    <div class="mail-container"></div>
+                    <input type="password" name="mdp" id="password" placeholder="Veuillez entrer votre mots de passe">
                    
-                    <a href="" target="_blank" class="forget">Mots de passe oublié ?</a><br>
+                    <a href="" target="_blank" class="forget">Mots de passe oublié ?</a>
 
                 </form>
-
+                    
+                <div>
                     <input type="reset" name="cancel" value="Annuler">
                     <input type="submit" name="connexion" value="Se connecter" onclick="window.location.href = '../Accueil/Accueil.html';"> <!--lien vers page d'accueil-->
-                     
-                
+                </div>             
          <a href="../Créer_un_compte/Créer_un_compte.html" class="first">Première connexion ? Cliquez ici ! </a>
 
-        </div>
     </section>
 
 </body>
